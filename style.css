@@ -1,29 +1,84 @@
-
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
 h1{
     color: rgb(90, 182, 215);
     font-size: 48px;
-    margin-top: 100px;
-    
+    margin-top: 110px;
     
 }
-section{
-     margin-left: 130px;
+h2{
+    text-decoration: underline;
+    margin-left: 5%;
 }
-table{
-    width: 70%;
+#hero{
+    background-image: url("/images/background-conceptabstract-geometric-pattern-with-connections-dots-lines-background_25346-954\ copy.png");
+    text-align: center;
+    width:100%;
+    padding: 10px;;
+}
+#hero p{
+    font-size: 24px;
+    color:rgb(1, 1, 68) ;
+    
+}
+input{
+    background-color: rgb(90, 182, 215);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    font-size: medium;
+}
+input:hover{
+    background-color: rgb(1, 1, 68);
+    color: violet;
+}
+/* #pricing{
+      /* margin-left: 130px;
+} */
  
+table{
+    width: 90%;
     border-collapse: collapse;
     text-align: center;
+    margin-left: 5%;
 }
-.pricing th,td{
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+#features ul{
+    display: flex;
+   text-align: center;
+}
+#features li{
+    margin: auto;
+ display: inline-block;
+  
+    
+}
+#features p{
+    display: inline-block;
+}
+#reviews blockquote{
+    margin-left: 5%;
+}
+#pricing th,td{
   
     border-color: black;
   border: 1px solid #ddd;
   padding: 10px;
 }
-.footer{
+#footer{
     padding: 10px;
     text-align: center;
     margin-top: 50px;
     border-top: 1px solid #ddd;
+}
+#footer img{
+    width:16px;
+    height: 12px;
 }
